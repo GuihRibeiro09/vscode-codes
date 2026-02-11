@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tabuleiro - Recuperação de Lítio</title>
+  <style>
+    body { font-family: Arial; text-align: center; }
+    #board { display: grid; grid-template-columns: repeat(10, 60px); gap: 4px; justify-content: center; }
+    .cell { width: 60px; height: 60px; border: 1px solid #555; line-height: 60px; }
+    .player { background-color: lightgreen; }
+  </style>
+</head>
+<body>
+
+<h1>Jogo Educativo - Recuperação de Lítio</h1>
+
+<div id="board"></div>
+<button onclick="rollDice()">🎲 Jogar Dado</button>
+<p id="dice"></p>
+
+<script src="perguntas.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
